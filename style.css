@@ -1,0 +1,224 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+  html{
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: rgba(1, 1, 1, 0.99);
+    color: rgba(255, 255, 255, 0.9);
+    font-family: "Xmind"
+    }
+
+  button {
+    font-family: "Xmind";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    opacity: .8;
+    transition: all .4s;
+    }
+
+  button:hover{
+    opacity: 1;
+    }  
+
+
+  header {
+    width: 100%;
+    display: flex;
+    padding: 1%;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 99;
+
+  nav ul{
+    display: flex;
+    background-color: rgba(15, 15, 19, 0.692);
+    gap: 50px;
+    padding: 20px 25px;
+    list-style-type: none;
+    border-radius: 40px;
+    backdrop-filter: blur(20px);
+    }
+    }
+
+  p{
+    opacity: 1;
+    }
+
+  a{
+    color: white;
+    opacity: 0.8;
+    text-decoration: none;
+
+    &:hover{
+      opacity: 1;
+      transition: all .3s;
+    }
+  }  
+
+  .Logo{
+    width: 80px;
+    border-radius: 20px;
+    }
+
+  .baseweb{
+    background-image: url(assets/fund.jpg);
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    }
+
+  section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+    }
+
+  .sec1{
+    background-size: 100% 100%;
+    background-position: top;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    }
+
+  h2{
+    font-size: 6vw;
+    color: rgba(228, 228, 228, 0.863);
+    mix-blend-mode: color-dodge;
+    }
+            
+  .conteudobase{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   } 
+
+  h1{
+    text-align: center;
+    font-size: 50px;
+    color: rgba(228, 228, 228, 1);
+    font-weight: 400;
+    }
+
+  .divboot{
+    display: flex;
+    gap: 30px;
+    margin-top: 18px;
+    }
+
+  .boot1{
+    background-color: rgb(255, 255, 255);
+    padding: 8px 8px 8px 12px;
+    gap: 5px;
+
+  .indi{
+    width: 35px;
+    border-radius: 20px;
+    }
+    }
+
+  .boot2{
+    background-color: rgba(36, 36, 36, 1);
+    color: rgb(255, 255, 255);
+    padding: 12px 12px 12px 12px;
+    } 
+
+  .titlesec2{
+    font-size: 60px;
+    font-weight: 500px;
+    color: rgb(255, 255, 255, 0.9);
+    }
+
+  .sec2{
+    align-items: center;
+    }
+  
+  .Ser2{  
+    width: 50px;
+    border-radius: 10px;
+    }
+
+  .bio1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 50px 0px 10px;
+    }
+
+  .bio2{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 50px 0px 10px;
+    }
+
+  .bio3{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 50px 0px 10px;
+    }
+
+  .divSer{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin: 80px 0px 80px;
+    }
+
+  .Ser{
+    width: 50%;
+    background-color: rgba(17, 17, 17, 0.6);
+    border-radius: 20px;
+    padding: 35px 25px;
+
+    h3{
+      font-size: 35px;
+      font-weight: 550;
+      margin: 20px 0px 8px;
+
+    }
+    }
+
+  .white{
+    background-color: rgba(25, 25, 25, 0.4);
+    border-radius: 20px;
+    padding: 35px 25px;
+    }
+
+  .sec3{
+    align-items: center;
+    }  
+  
+  .info{
+    width: 50vw;
+    height: 25vh;
+    background-color: rgba(10, 10, 10, 0.8);
+    border-radius: 20px;
+    padding: 35px 25px;
+    margin:  40px 0px 200px;
+
+  p{
+    font-size: 22px;
+    font-weight: 450;
+    margin: 20px 0px 8px;
+    text-align: center;
+    color: white;
+    }
+    }
+  
